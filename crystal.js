@@ -22,7 +22,7 @@
 
   /*change img --*/
   let images = ['bg-1', 'bg-2','bg-3', 'bg-4'];
-  let index = 1;
+  let index = 0;
 
 //fadeBg();
 
@@ -34,6 +34,6 @@
          if (index === images.length) index = 0;
          background.style.backgroundImage = `url(images/${images[index]}.jpg)`;
      }
-   setInterval(fadeInterval, 5000);
+   setInterval(fadeInterval, 3500);
   }
 fadeBg();
